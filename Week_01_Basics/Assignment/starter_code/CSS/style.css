@@ -1,0 +1,8 @@
+body{
+	background:gray;
+}
+
+#picture{
+	float:right;
+	width:250px;
+}
