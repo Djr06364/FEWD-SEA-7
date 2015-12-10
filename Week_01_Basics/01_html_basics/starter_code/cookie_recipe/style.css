@@ -1,0 +1,15 @@
+body {
+	background-color:gray;
+}
+
+p{
+	color: rgba(200,50,0,1);
+}
+
+#sugar{
+color: rgba(150,10,99,1);
+}
+
+.ingrediant{
+	color:#8CD0AD;
+}
