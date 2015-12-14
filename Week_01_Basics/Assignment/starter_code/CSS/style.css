@@ -12,7 +12,15 @@ body{
 	border-radius:2000px;
 	border-style:solid;
 	border-color:#34495e;
-	
+}
+#relaxr{
+	float:center;
+}
+#Portfolio{
+	color:#34495e;
+}
+#experience{
+	color:#34495e;
 }
 
 a{
@@ -24,6 +32,7 @@ ul{
 li{
 	display:inline;
 	padding: 0px 40px 0px 40px;
+	list-style-type:square;
 }
 nav{
 	color:#2c3e50;
@@ -48,5 +57,8 @@ h3{
 p{
 	color:#c0392b;
 	}
-
+dl{
+	color:#c0392b;
+	font-family: 'Poiret One';
+}
 
