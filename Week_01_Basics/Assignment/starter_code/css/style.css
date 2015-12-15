@@ -1,0 +1,63 @@
+body{
+	font-family: 'Poiret One';
+}
+#developer{
+	color:#3498db;
+	font-weight:bold;
+}
+
+#picture{
+	float:right;
+	width:350px;
+	border-radius:2000px;
+	border-style:solid;
+	border-color:#34495e;
+}
+#relaxr{
+	float:center;
+}
+#Portfolio{
+	color:#34495e;
+}
+#experience{
+	color:#34495e;
+}
+
+a{
+	color:#34495e;
+}
+ul{
+	text-align:center;
+}
+li{
+	display:inline;
+	padding: 0px 40px 0px 40px;
+	list-style-type:square;
+}
+nav{
+	color:#2c3e50;
+	text-align:center;
+}
+
+h1{
+	color:#c0392b;
+	text-align:center;
+	font-size:75px;
+	font-family: 'Poiret One';
+}
+
+h2{
+	color:#c0392b;
+	font-family: 'Poiret One';
+}
+h3{
+	color:#c0392b;
+	font-family: 'Poiret One';
+	}
+p{
+	color:#c0392b;
+	}
+dl{
+	color:#c0392b;
+	font-family: 'Poiret One';
+}
