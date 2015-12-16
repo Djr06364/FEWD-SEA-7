@@ -50,8 +50,7 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     background:#f0efef;
 }
 
 
@@ -60,25 +59,56 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
-  width: 100%;
-  margin: auto;
-  height: 500px;
 
-}
+
+
 
 header {
-
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+      background-size: cover;
+  padding-bottom:400px;
 }
 
 footer {
 
 }
 
+.container{
+width:960px;
+margin:0 auto;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+header h1{
+ font-weight:700;
+ font-size:36px;
+ font-family: 'Open Sans', sans-serif;
+  color:white;
+}
+header h2{
+  text-align:center;
+  font-weight:600;
+  font-size:36px;
+  color:white;
+  margin-top:100px;
+  margin-bottom:100px;
+}
+header a{
+  background:#f9e42e;
+  font-family: sans-serif, bold;
+  border-radius:5px;
+  font-size:25px;
+  padding:10px 20px;
+  margin-left:410px;
+  text-decoration:none;
+}
 
+#benefits{
+  font-size:35px;
+  color:#033048;
+}
 
 

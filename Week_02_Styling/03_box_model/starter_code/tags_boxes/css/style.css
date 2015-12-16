@@ -1,0 +1,40 @@
+h1{
+	background:red;
+	padding:10px 15px 15px 10px;
+	border:black solid 5px;
+	text-align: center;
+	margin:100px;
+}
+p{
+	background:blue;
+	color:white;
+	padding:23px 10px 6px;
+	border: black solid 5px;
+}
+
+code{
+	background:white;
+	color:black;
+	padding:3px 5px;
+	border:2px solid red;
+}
+h2{
+	background:orange;
+	color:gray;
+	padding:10px;
+	margin:20px;
+}
+ol{
+	background:green;
+	color:black;
+	border:red 17px inset;
+	margin-right:500px;
+	margin-top:20px;
+}
+
+li{
+	background:gray;
+	border:orange 3px solid;
+}
+
+
