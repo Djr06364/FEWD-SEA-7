@@ -1,0 +1,53 @@
+body{
+	width:900px;
+	margin:0 auto;
+}
+
+header, footer{
+	height:75px;
+	clear:both;
+	width:600px:;
+}
+
+section{
+	float:right;
+	height:300px;
+	width:425px;
+}
+sidebar{
+	float:left;
+	height:300px;
+	width:425px;
+}
+.topmiddle{
+	height:300px;
+}
+ul{
+	height:150px;
+}
+.threebox{
+	height:170px;
+}
+#leftlist{
+	height:120px;
+	width:100px;
+	float:left;
+}
+#centerlist{
+	height:120px;
+	width:100px;
+	float:left;
+}
+#rightlist{
+	height:120px;
+	width:100px;
+	float:right;
+}
+li{
+	display:inline;
+}
+.container{
+	height:150px;
+	padding:0px 0px 10px 0px;
+}
+
