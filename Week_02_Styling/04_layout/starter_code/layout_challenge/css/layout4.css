@@ -1,0 +1,101 @@
+body{
+	width:900px;
+	margin:0 auto;
+}
+
+header{
+	height:100px;
+	clear:both;
+	width:900px:;
+}
+footer{
+	height:100px;
+	clear:both;
+	width:900px;
+	margin-top:15px;
+}
+#leftheader{
+	height:98px;
+	width:200px;
+	float:left;
+}
+#rightheader{
+	height:98px;
+	width:700px;
+	float:right;
+}
+
+#logo{
+	height:93px;
+	width:198px;
+	margin-top:5px;
+}
+li{
+	display:inline;
+}
+#headerlist{
+	height:72px;
+	width:700px;
+	padding:0px;
+	margin:0px 0px;
+}
+
+#leftbox{
+	height:40px;
+	width:100px;
+	float:left;
+	margin-top:25px;
+	margin-left:100px;
+	margin-right:35px;
+}
+#leftcenterbox{
+	height:40px;
+	width:100px;
+	float:left;
+	margin-top:25px;
+}
+#rightbox{
+	height:40px;
+	width:100px;
+	float:right;
+	margin-top:25px;
+}
+#rightrightbox{
+	height:40px;
+	width:100px;
+	float:right;
+	margin-top:25px;
+	margin-left:35px;
+}
+
+p{
+	height:300px;
+}
+#trio{
+	height:175px;
+}
+#leftlist{
+	height:155px;
+	width:280px;
+	float:left;
+	margin-right:15px;
+	margin-top:15px;
+}
+#centerlist{
+	height:155px;
+	width:280px;
+	float:left;
+	margin-top:15px;
+	margin-left:15px;
+}
+#rightlist{
+	height:155px;
+	width:280px;
+	float:right;
+	margin-top:15px;
+}
+.container{
+	height:175px;
+	padding:0px;
+	margin:0px
+}
