@@ -1,0 +1,133 @@
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+header{
+	background:black;
+	height:150px;
+	border-bottom:5px solid yellow;
+}
+body{
+	background:white;
+}
+#leftheader{
+  /*height:50px;*/
+  width:100%;
+  float:left;
+  margin-top:20px;
+  margin-left:80px;
+  color:yellow;
+  font-size:30px;
+  font-weight:bold;
+}
+#rightheader{
+  /*height:40px;*/
+  float:right;
+  color:white;
+  margin-top:5px;
+  font-size:20px;
+  padding-bottom:10px;
+}
+#rightheader li{
+  display:inline-block;
+  padding:20px;
+}
+#top{
+	background-color:gray;
+	font-size:40px;
+}
+#top p{
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+#image{
+	background-image: url("https://raw.githubusercontent.com/ga-students/FEWD-SEA-7/master/Week_03_Layout/06_HTML_CSS_Lab/starter_code/startup_matchmaker/images/coworking.jpg");
+	background-size:cover;
+	height:600px;
+}
+#sidebar{
+	float:right;
+	width:450px;
+	height:550px;
+	margin-top:25px;
+	margin-right:75px;
+	/*text-align:center;*/
+	background-color:rgba(255,255,255,0.85);
+	border: 2px solid black;
+}
+#bottom{
+	height:300px;
+	background-color:white;
+}
+#bottomleft{
+	float:left;
+	background-color:gray;
+	height:300px;
+	width:33%;
+}
+#bottomright{
+	float:right;
+	background-color:orange;
+	height:300px;
+	width:33%;
+}
+#bottomcenter{
+	background-color:green;
+	float:left;
+	height:300px;
+	width:34%;
+}
+footer{
+	background-color:black;
+	height:40px;
+	color:white;
+	font-size:15px;
+	padding-left:15px;
+	padding-top:5px;
+}
+h2{
+	padding-top:60px;
+	color:black;
+	font-weight:bold;
+	font-size:45px;
+	width:400px;
+	margin:0 auto;
+}
+#boxp{
+	width:400px;
+	margin:0 auto;
+	font-size:35px;
+	padding-top:40px;
+}
+#profile{
+	background:yellow;
+	font-size:25px;
+	width:250px;
+	margin:0 auto;
+	margin-top:30px;
+	text-align:center;
+	padding:10px 30px 10px 30px;
+	border-radius:5px;
+	font-weight:bold;
+	border-bottom:2px solid orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
