@@ -1,3 +1,9 @@
 body.dark {
   background: black;
+  color:red;
+}
+
+body.light{
+	background:green;
+	color:white;
 }
