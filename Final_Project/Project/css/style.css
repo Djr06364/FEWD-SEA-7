@@ -1,0 +1,128 @@
+* { margin:0; padding:0; }
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+*{
+	box-sizing: border-box;
+}
+
+
+body{
+	background-image: url("http://res.cloudinary.com/ratebeer/image/upload/plac_26594.jpg");
+	background-size: 100%
+}
+header{
+	height:160px;
+	clear:both;
+	width:100%;
+	background-color: rgba(204,166,22,0.3);
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color:black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+#leftdiv{
+	height:150px;
+	width:43%;
+	float:left;
+	padding-bottom:20px;
+	float:left;
+	display:inline;
+}
+
+#rightdiv{
+	height:150px;
+	width:57%;
+	float:right;
+	display:inline;
+}
+#centerdiv{
+	height:150px;
+	width:15%;
+	display:inline;
+}
+#headerlist{
+	width:100%;
+	display:inline;
+}
+
+
+#About{
+	float:right;
+	margin-right:4%;
+	height:33px;
+	width:70px;
+}
+#TapList{
+	float:right;
+	margin-right:4%;
+	height:33px;
+	width:95px;
+}
+#Contact{
+	float:left;
+	margin-left:5%;
+	height:33px;
+	width:93px;
+}
+
+#Anything{
+	float:left;
+	margin-left:5%;
+	height:33px;
+	width:105px;
+}
+
+#Logo{
+	margin-top:5px;
+	/*background-image:url("https://emeraldcityburgersbrews.files.wordpress.com/2014/09/thepinebox.jpg");
+	background-size:100%;*/
+	height:150px;
+	/*width:150px;*/
+	/*border:5px solid white;
+	border-radius:20px;*/
+	float:left;
+	padding-left:30px;
+	text-align:center;
+	/*margin-left:auto;
+	margin-right:auto;*/
+
+}
+
+.bar{
+	display:inline;
+}
+.word{
+	background-color: rgba(204,166,22,0.5);
+	color: black;
+	font-size:25px;
+	font-family: 'Philosopher', sans-serif; 
+	font-weight:400;
+	font-style:italic;
+	/*height:100px;
+	width:100px;*/
+	margin-top:50px;
+	border:1px solid white;
+	border-radius:4px;
+}
