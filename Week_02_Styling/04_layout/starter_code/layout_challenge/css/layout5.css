@@ -130,3 +130,39 @@ footer{
 	margin-top:15px;
 }
 
+@media (min-width:768px){
+body{
+	background-color:green;
+}
+#headerlist{
+	width:100%;
+	display:inline;
+}
+#leftheader, #leftbox, #leftcenterbox, #midbox, #rightrightbox, #rightbox{
+	float:none;
+	width:100%;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#leftbar{
+	width:100%;
+	float:none;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#bottomlist{
+	width:100%;
+	display:inline;
+}
+#bottomleft, #bottommidright, #bottommidleft, #bottomright{
+	float:none;
+	width:100%;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#articlediv{
+	display:none;
+}
+
+}
+

@@ -1,0 +1,103 @@
+header{
+	height:100px;
+	clear:both;
+	width:900px;
+	padding-top:5px;
+}
+#leftheader{
+	height:98px;
+	width:200px;
+	float:left;
+	padding-bottom:20px;
+	display:inline-block;
+}
+#rightheader{
+	height:98px;
+	width:700px;
+	float:right;
+}
+
+#logo{
+	height:93px;
+	width:198px;
+	margin-top:5px;
+}
+li{
+	display:inline-block;
+}
+#headerlist{
+	height:72px;
+	width:700px;
+	padding:0px;
+	margin:0px 0px;
+}
+
+#leftbox{
+	height:35px;
+	width:90px;
+	float:left;
+	margin-top:25px;
+	margin-left:75px;
+	margin-right:40px;
+}
+#leftcenterbox{
+	height:35px;
+	width:90px;
+	margin-top:25px;
+	margin-right:40px;
+}
+#midbox{
+	height:35px;
+	width:90px;
+	margin-top:25px;
+	margin-right:40px;
+	}
+#rightbox{
+	height:35px;
+	width:90px;
+	margin-top:25px;
+	margin-right:40px;
+}
+#rightrightbox{
+	height:35px;
+	width:90px;
+	float:right;
+	margin-top:25px;
+}
+*{
+	box-sizing: border-box;
+}
+
+.grey {
+	background-color:#ccc;
+	border:1px solid #808080;
+}
+@media (max-width:768px){
+body{
+	background-color:green;
+}
+/*#headerlist{
+	width:100%;
+}*/
+#logo, #leftheader, #leftbox, #leftcenterbox, #midbox, #rightrightbox, #rightbox{
+	float:none;
+	width:100%;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+header{
+	width:100%;
+	float:none;
+}
+ul #headlist{
+	width:100%;
+	float:none;
+	display:none;
+	height:0px;
+}
+.grey{
+	width:100%;
+	float:none;
+}

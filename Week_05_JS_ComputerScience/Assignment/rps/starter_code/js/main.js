@@ -12,19 +12,18 @@ function getComputerPlay() {
 	$("#rock, #paper, #scissors").click(function(){
 		var humanChoice = $(this).attr("id");
 		var computerP = getComputerPlay();
-		if (computerP === humanChoice){
-			$("#winner").html("TIE GAME");
-		}
-		else if (computerP === "scissors" && humanChoice === "paper" || computerP === "paper" && humanChoice === "rock" || computerP === "rock" && humanChoice === "scissors"){
-			$("#winner").html("COMPUTER WINS");
-			$("#computerScore").html(i++);
-		}
-		else {
+			if (computerP === humanChoice){
+				$("#winner").html("TIE GAME");
+			}
+			else if (computerP === "scissors" && humanChoice === "paper" || computerP === "paper" && humanChoice === "rock" || computerP === "rock" && humanChoice === "scissors"){
+				$("#winner").html("COMPUTER WINS");
+				$("#computerScore").html(i++);
+			}
+			else {
 			$("#humanScore").html(i++);
-		$("#winner").html("YOU WIN");
-		}
-
-	});
+			$("#winner").html("YOU WIN");
+			}
+});
 
 
 console.log(getComputerPlay());
