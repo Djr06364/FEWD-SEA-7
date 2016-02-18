@@ -35,47 +35,36 @@
 </span>
 </header>
 
-<div class="feelingcontainer" role="group" aria-label="...">
+<div class="questioncontainer">
+  <span>
 	<h4>The most appealing thing to me right now is...</h4>
-  <div class="btn-group" role="group">
-    <button type="button" class="btn btn-default">APPLES</button>
-  </div>
-  <div class="btn-group" role="group">
-    <button type="button" class="btn btn-default">HOPS HOPS</button>
-  </div>
-  <div class="btn-group" role="group">
-    <button type="button" class="btn btn-default">COFFEE</button>
-  </div>
-</div>
+</span>
+  <span>
+    <select id="appeal">
+  <option value="hops">Hops</option>
+  <option value="fruit">Fruit</option>
+  <option value="chocolate">Chocolate</option>
+</select>
+</span>
 
-<div class="drunkcontainer" role="group" aria-label="...">
 	<h4>After I have 3 beers I want to...</h4>
-  <div class="btn-group" role="group">
-    <button type="button" class="btn btn-default">Feel perfectly normal</button>
-  </div>
-  <div class="btn-group" role="group">
-    <button type="button" class="btn btn-default">Have a little buzz</button>
-  </div>
-  <div class="btn-group" role="group">
-    <button type="button" class="btn btn-default">Hit the floor</button>
-  </div>
+  <select id="afterthree">
+  <option value="buzz">Buzz</option>
+  <option value="drunk">Be Drunk</option>
+  <option value="floor">Hit the floor</option>
+</select>
+
+	<h4>Where I want my beer to be from</h4>
+ <select id="location">
+  <option value="seattle">Seattle, obviously</option>
+  <option value="pnw">The PNW Somewhere</option>
+  <option value="idc">I don't give a shit</option>
+</select>
+<br></br>
+<input id="submitbutton" type="submit" value="Submit">
 </div>
 
-
-<div class="wherecontainer" role="group" aria-label="...">
-	<h4>I want my beer to be brewed</h4>
-  <div class="btn-group" role="group">
-    <button type="button" class="btn btn-default">In my backyard!</button>
-  </div>
-  <div class="btn-group" role="group">
-    <button type="button" class="btn btn-default">Somewhere in the PNW</button>
-  </div>
-  <div class="btn-group" role="group">
-    <button type="button" class="btn btn-default">I don't give a shit</button>
-  </div>
-</div>
-
-
+<p id="winningchoice"></p>
 
 
 

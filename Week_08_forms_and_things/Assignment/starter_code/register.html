@@ -8,6 +8,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
 
 		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/form.css">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
 
@@ -25,12 +26,27 @@
 				</nav>
 			</div>
 		</header>
-		<section id="main">
-			<div class="container">
-				<section id="contact">
-					<input type="submit" value="Register Now!">
+		<div class="formcontainer">
+			<h4 id="registernow">Register Now!</h4>
+		<form>
+			<h7>Name:</h7><input type="text" placeholder="Enter Full Name" /><br></br>
+			<h7>E-mail:</h7><input type="email" placeholder="youremail@email.com" /><br></br>
+			<h7>Phone Number:</h7><input type="tel" placeholder="555-123-4567"><br></br>
+			<h7>State of Residence:</h7><select placeholder = "state"><br></br>
+				<option>Alabama</option>
+				<option>Alaska</option>
+				<option>I dont know whats next</option>
+			</select><br></br>
+			<h7>Password:</h7><input type="password" placeholder="Password" /><br></br>
+ <h7>Your Choice:</h7> <h7 class="firstradio">Relaxing</h7><input type="radio" name="relaxing" value="Relaxing">
+  <h7>Email</h7><input type="radio" name="relaxing" value="Email">
+  <h7>Phone</h7><input type="radio" name="relaxing" value="Phone"><br></br> 
+  <input type="checkbox"><h7> I agree to Relaxr terms of service</h7><br></br>
+					<input id="contactsubmit" type="submit" value="Register Now!">
 				</section>
-			</div>
+</form>
+
+					</div>
 		</section>
 
 		<footer>

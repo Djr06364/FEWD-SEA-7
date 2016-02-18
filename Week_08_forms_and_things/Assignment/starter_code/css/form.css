@@ -1,0 +1,67 @@
+.formcontainer{
+	margin-top:20px;
+	margin-left:350px;
+	width:650px;
+}
+
+input[type="text"]{
+	border:none;
+	border-bottom:1px solid black;
+	margin-left:20px;
+	font-size:30px;
+	float:right;
+}
+input[type="email"]{
+	border:none;
+	border-bottom:1px solid black;
+	margin-left:20px;
+	font-size:30px;
+	float:right;
+}
+
+input[type="tel"]{
+	border:none;
+	border-bottom:1px solid black;
+	margin-left:20px;
+	font-size:30px;
+	float:right;
+}
+select{
+	border:none;
+	border-bottom:1px solid black;
+	margin-left:20px;
+	font-size:28px;
+	float:right;
+	background:none;
+}
+input[type="password"]{
+	border:none;
+	border-bottom:1px solid black;
+	margin-left:20px;
+	font-size:30px;
+	float:right;
+}
+input[type="radio"]{
+	border:none;
+	border-bottom:1px solid black;
+	margin-left:20px;
+	font-size:30px;
+}
+.firstradio{
+	margin-left:120px;
+}
+#registernow{
+	padding-bottom:20px;
+	font-size:50px;
+}
+#contactsubmit{
+	background-color:#002F4A;
+	color:#FFFFFF;
+	height:75px;
+	width:300px;
+	font-size:25px;
+	font-weight:bold;
+	margin-bottom:50px;
+	border:none;
+	border-radius:10px;
+}

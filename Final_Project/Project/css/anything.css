@@ -1,3 +1,25 @@
 h4{
 	color:orange;
+	font-size:30px;
+}
+.selectedbutton{
+	background:black;
+	color:white;
+}
+.questioncontainer{
+	background:black;
+	width:700px;
+	margin-left:400px;
+	text-align:center;
+	height:500px;
+}
+select{
+	font-size:30px;
+	background:none;
+	border:none;
+	border-bottom:1px solid orange;
+	color:green;
+}
+#winningchoice{
+	color:red;
 }

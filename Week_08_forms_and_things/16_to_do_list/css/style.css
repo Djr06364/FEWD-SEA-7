@@ -1,0 +1,27 @@
+ul {
+	list-style-type: none;
+}
+
+#container{
+	width:800px;
+	height:500px;
+}
+
+
+#newEnter{
+	margin-left:450px;
+	height:50px;
+	font-size:30px;
+	border:none;
+	color:black;
+	border-bottom:1px solid black;
+}
+#todoEntries{
+	font-size:30px;
+	color:black;
+	margin-left:450px;
+}
+
+.completed{
+	color:red;
+}

@@ -37,7 +37,8 @@ a:visited {
 */
 body{
 	background-image: url("http://res.cloudinary.com/ratebeer/image/upload/plac_26594.jpg");
-	background-size: 100%
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 header{
 	height:160px;
@@ -133,3 +134,4 @@ img {
  border:1px solid white;
 /* border-radius:10px;*/
 }
+
