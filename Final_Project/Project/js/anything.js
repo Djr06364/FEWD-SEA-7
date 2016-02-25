@@ -1,6 +1,5 @@
  $(document).ready(function(){
 
-
 $("#submitbutton").click(function(){
 
 var ApricotCrushScore = 0
@@ -110,9 +109,28 @@ var JackRoseScore = 0
 
 
 var beerArray = [
- 		{ name: "Citra", value: CitraIpaScore},
- 		{ name: "DBA", value: DBAscore}
+ 		{ name: "Citra IPA", value: CitraIpaScore},
+ 		{ name: "DBA", value: DBAscore},
+ 		{ name: "Imperial Breakfast Porter", value: ImpBreakfastPorterScore},
+ 		{ name: "Boysen Imperial Porter", value: BoysenImpPorterScore},
+ 		{ name: "Split Shot", value: SplitShotScore},
+ 		{ name: "Ivan the Terrible", value: IvanTheTerribleScore},
+ 		{ name: "Nitro Wake Up Dead", value: NitroWakeUpDeadScore},
+ 		{ name: "Aged Pale Ale", value: AgedPaleAleScore},
+ 		{ name: "Urban Farmhouse", value: UrbanFarmhouseScore},
+ 		{ name: "Rhubarian Cider", value: RhubabrianScore},
+ 		{ name: "Paris of the West", value: ParisOfTheWestScore},
+ 		{ name: "Apricot Cider", value: ApricotCiderScore},
+ 		{ name: "Jack Rose", value: JackRoseScore},
+ 		{ name: "Apricot Crush", value: ApricotCrushScore},
+ 		{ name: "Its a Twap", value: TwapScore},
+ 		{ name: "ManifestDestinyScore", value: ManifestDestinyScore},
+ 		{ name: "Simtra", value: SimtraScore},
+ 		{ name: "Skunk Ape", value: SkunkApeScore},
+ 		{ name: "Broken Record", value: BrokenRecordScore},
+ 		{ name: "5440 or Fight", value: FightScore}
  		];
+
 
  	function custom_compare (a,b) {
   return a.value - b.value;
@@ -121,6 +139,7 @@ beerArray.sort(custom_compare).reverse();
 
 for (var i=0;i<beerArray.length;i++) {
   console.log(beerArray[0].name);
+  $("#winningchoice").html("You should order a" +" "+ beerArray[0].name);
 }
 
  	

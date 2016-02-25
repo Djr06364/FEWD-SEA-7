@@ -1,5 +1,5 @@
 h4{
-	color:orange;
+	color:rgba(44, 62, 80,1.0);
 	font-size:30px;
 }
 .selectedbutton{
@@ -7,19 +7,34 @@ h4{
 	color:white;
 }
 .questioncontainer{
-	background:black;
 	width:700px;
-	margin-left:400px;
+	margin-left:350px;
 	text-align:center;
-	height:500px;
+	height:600px;
+	background-color:rgba(189, 195, 199,0.5);
 }
 select{
 	font-size:30px;
 	background:none;
 	border:none;
-	border-bottom:1px solid orange;
+	border-bottom:1px dotted rgba(44, 62, 80,1.0);
 	color:green;
 }
 #winningchoice{
-	color:red;
+	color:rgba(44, 62, 80,1.0);
+	font-size:50px;
 }
+#submitbutton{
+	background:none;
+	font-size:30px;
+}
+h2{
+	color:rgba(44, 62, 80,1.0);
+}
+/*body{
+	background:rgba(189, 195, 199,1.0);
+}
+header{
+	background-image: url("http://res.cloudinary.com/ratebeer/image/upload/plac_26594.jpg");
+	background-size:100%;
+}*/

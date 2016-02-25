@@ -1,5 +1,6 @@
 .twitter-timeline{
 	float:right;
+	clear:all;
 }
 
 #gmap_canvas{

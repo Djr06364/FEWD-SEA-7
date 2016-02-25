@@ -25,3 +25,14 @@ ul {
 .completed{
 	color:red;
 }
+.remove
+{
+    display: inline-block;
+    margin: 2px;
+    margin-right: 10px;
+    color: red;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: 1px solid gray;
+    cursor: pointer;
+}

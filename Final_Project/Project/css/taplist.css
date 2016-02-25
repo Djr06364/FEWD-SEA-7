@@ -28,12 +28,12 @@ br{
 }
 
 #barrel:hover{
-	background:url("http://portlandbrewpubs.com/wp-content/uploads/2015/03/10-Barrel-Logo.jpg");
+	background:none;
 	background-size:cover;
-	
+	background:rgba(127, 140, 141,0.5);
 }
 #almanac:hover{
-	background:url("http://www.almanacbeer.com/wp-content/uploads/2015/08/PARIS_OF_THE_WEST_med.jpg");
+	background:none;
 	background-size:cover;
 	background-repeat:no-repeat;
 }
@@ -48,7 +48,7 @@ br{
 }
 
 #FiftyFour:hover{
-	background:url("http://www.newschoolbeer.com/wp-content/uploads/2015/03/54-40-screen-shot.png");
+	background:none;
 	background-size:cover;
 	max-width:100%;
 }
